@@ -15,6 +15,8 @@ export const initSocket = (httpServer: HttpServer): SocketServer => {
     transports: ['websocket', 'polling'],
   });
 
+  
+
   io.use((socket: Socket, next) => {
     const token = socket.handshake.auth?.token;
     if (token) {
