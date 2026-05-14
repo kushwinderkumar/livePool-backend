@@ -1,0 +1,1 @@
+{"version":3,"file":"socketManager.d.ts","sourceRoot":"","sources":["../../src/socket/socketManager.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,IAAI,UAAU,EAAE,MAAM,MAAM,CAAC;AAC5C,OAAO,EAAE,MAAM,IAAI,YAAY,EAAU,MAAM,WAAW,CAAC;AAM3D,eAAO,MAAM,UAAU,GAAI,YAAY,UAAU,KAAG,YAuDnD,CAAC;AAEF,eAAO,MAAM,KAAK,QAAO,YAGxB,CAAC"}
