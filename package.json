@@ -5,10 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only --exit-child src/index.ts",
-    "build": "npx tsc --project tsconfig.json",
+    "build": "node ./node_modules/typescript/bin/tsc --project tsconfig.json",
     "start": "node dist/index.js",
     "db:migrate": "ts-node src/config/migrate.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -36,5 +36,8 @@
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
